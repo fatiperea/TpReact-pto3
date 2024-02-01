@@ -1,8 +1,7 @@
-import { useState } from "react";
+import Punto3 from "./components/Punto3";
+
 
 function App() {
-  const [msj, setMsj]=useState("from changed state");
-
   return <Punto3 friend="my friend!"></Punto3>;
 }
 
